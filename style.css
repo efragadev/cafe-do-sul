@@ -21,6 +21,60 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #3c0909;
-    text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.5);
+    color: #000000;
+}
+
+.banner-content {
+    width: 80%;
+}
+
+.banner-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+nav a{
+    color: #fffdfd;
+    text-decoration: none;
+    margin: 0.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: #431b1b;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #652525;
+}
+
+main {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.categoria {
+    margin-bottom: 2rem;
+}
+
+.produto {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.produto img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
 }
