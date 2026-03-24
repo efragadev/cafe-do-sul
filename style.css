@@ -1,27 +1,36 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #1C1C1C;
 }
 
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #B08968;
+    letter-spacing: 3px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+/* 🔥 HEADER */
 header {
-    background-color: rgb(100, 100, 100);
-    color: #fff;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #444;
 }
 
 .banner {
-    background-image: url(img/banner.png);
-    background-size: cover;
-    background-position: center;
+    background-color: #2C2C2C;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .banner-content {
@@ -29,29 +38,36 @@ header {
 }
 
 .banner-content h1 {
+    font-family: 'Playfair Display', serif; /* 🔥 fonte premium */
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: #FFFFFF;
+    letter-spacing: 1px;
 }
 
-.banner p{
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+.banner p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #EDE0D4;
 }
 
-nav a{
-    color: #fffdfd;
+/* 🔥 BOTÕES MENU */
+nav a {
+    color: #FFFFFF;
     text-decoration: none;
-    margin: 0.1rem;
+    margin: 0.2rem;
     padding: 0.5rem 1rem;
-    border-radius: 4px;
-    background-color: #431b1b;
-    font-weight: bold;
+    border-radius: 6px;
+    background-color: #B08968;
+    font-weight: 600;
+    transition: 0.3s;
 }
 
-nav a:hover{
-    background-color: #652525;
+nav a:hover {
+    background-color: #9C755F;
 }
 
+/* 🔥 MAIN */
 main {
     width: 80%;
     margin: 2rem auto;
@@ -59,22 +75,150 @@ main {
 
 .categoria {
     margin-bottom: 2rem;
+    color: #EDE0D4;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
+/* 🔥 CARD */
 .produto {
-    background-color: #fff;
-    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #2C2C2C;
+    border-radius: 10px;
     padding: 1rem;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    /* 🔥 sombra moderna */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
 }
 
-.produto img{
+.produto:hover {
+    transform: scale(1.03);
+}
+
+.produto h3 {
+    color: #1C1C1C;
+    font-family: 'Playfair Display', serif;
+}
+
+.produto p {
+    color: #555555;
+    font-size: 0.95rem;
+}
+
+.produto img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 1rem;
+}
+
+/* 🔥 PREÇO */
+.preco {
+    font-weight: bold;
+    color: #B08968;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/* 🔥 BOTÃO ADICIONAR */
+.adicionar {
+    background-color: #B08968;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.adicionar:hover {
+    background-color: #9C755F;
+}
+
+/* 🔥 PEDIDO */
+#pedido {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #2C2C2C;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+#lista-pedido {
+    list-style: none;
+    padding: 0;
+}
+
+/* 🔥 BOTÃO FINALIZAR */
+#finalizar-pedido {
+    background-color: #B08968;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#finalizar-pedido:hover {
+    background-color: #9C755F;
+}
+
+/* 🔥 CONTATO */
+#contato {
+    text-align: center;
+    margin-top: 2rem;
+    color: #EDE0D4;
+}
+
+/* 🔥 REDES */
+.redes-sociais a {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #2C2C2C;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 0.5rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.redes-sociais a:hover {
+    background-color: #B08968;
+    color: #FFFFFF;
+}
+
+.redes-sociais a:visited {
+    color: #B08968;
+}
+
+/* 🔥 FOOTER */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #2C2C2C;
+    color: #EDE0D4;
+    margin-top: 2rem;
+}
+
+/* 🔥 RESPONSIVO */
+@media (min-width: 768px) {
+    main {
+        width: 60%;
+    }
+
+    .categoria {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+    }
 }
