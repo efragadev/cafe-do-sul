@@ -210,6 +210,10 @@ footer {
     margin-top: 2rem;
 }
 
+footer p a{
+    color: #9C755F,;
+}
+
 /* 🔥 RESPONSIVO */
 @media (min-width: 768px) {
     main {
