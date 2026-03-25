@@ -1,136 +1,141 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title></title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café</title>
 
+    <!-- FONTE PREMIUM -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <header class="banner">
+
+<header class="banner">
     <section class="banner-content">
 
-        <div class="logo">Café do Sul</div> <!-- 🔥 LOGO -->
+        <div class="logo">Café do Sul</div>
+
         <h1>Café</h1>
-        <p>Os melhores café do Sul, com qualidade e um sabor sensacional, venha conferir!</p>
+
+        <p>Os melhores cafés do Sul, com qualidade e um sabor sensacional, venha conferir!</p>
 
         <nav>
-            <a href="">Café</a>
-            <a href="">Assados</a>
-            <a href="">Pedido</a>
-            <a href="">Contato</a>
+            <a href="#">Café</a>
+            <a href="#">Assados</a>
+            <a href="#">Pedido</a>
+            <a href="#">Contato</a>
         </nav>
 
     </section>
 </header>
 
-    <main>
-        <section id="cafe" class="categoria">
-            <h2>Cafés</h2>
-            <div class="produto">
-                <img src="img/cafe-Norma.png" alt="Cafe Normal">
-                <h3>Café Normal</h3>
-                <p>Nosso café tradicional vai te deixar com energia para o dia inteiro!</p>
-                <span>R$ 2,00</span>
-                <button class="adicionar">Adicionar </button>
-            </div>
-            <div class="produto">
-                <img src="img/cafe-cremoso.png" alt="Cafe Cremoso">
-                <h3>Cafe Cremoso</h3>
-                <p>Um café cremoso diferenciado, com diversos itens deliciosos!</p>
-                <span>R$ 4,00</span>
-                <button class="adicionar">Adicionar </button>
-            </div>
-            <div class="produto">
-                <img src="img/cafe-gourmet.png" alt="Cafe Gourmet">
-                <h3>Cafe Gourmet</h3>
-                <p>Delicioso cafe gourmet para alegrar o seu dia!</p>
-                <span>R$ 6,00</span>
-                <button class="adicionar">Adicionar </button>
-            </div>
-            <div class="produto">
-                <img src="img/capuccino_1600x1200.jpg" alt="Capuccino Gelado">
-                <h3>Capuccino Gelado</h3>
-                <p>Um capuccino gelado pra mudar completamente a rotina!</p>
-                <span>R$ 8,00</span>
-                <button class="adicionar">Adicionar </button>
-            </div>
-            <div class="produto">
-                <img src="img/chocolate_1600x1200.jpg" alt="Chocolate Quente">
-                <h3>Chocolate Quente</h3>
-                <p>Perfeito para um dia de frio!</p>
-                <span>R$ 10,00</span>
-                <button class="adicionar">Adicionar </button>
-            </div>
-        </section>
-        <section id="comida" class="categoria">
-            <h2>Assados</h2>
-            <div class="produto">
-                <img src="img/misto_1600x1200.jpg" alt="Misto Quente">
-                <h3>Misto Quente</h3>
-                <p>Delicioso misto quente com presunto e queijo!</p>
-                <span>R$ 6,00</span>
-                <button class="adicionar">Adicionar </button>
-            </div>
-            <div class="produto">
-                <img src="img/assado_1600x1200.jpg" alt="Assado">
-                <h3>Assado</h3>
-                <p>Nosso delicioso assado vai te surpreender com uma explosão de sabores!</p>
-                <span>R$ 10,00</span>
-                <button class="adicionar">Adicionar </button>
-            </div>
-            <div class="produto">
-                <img src="img/paodequeijo_1600x1200.jpg" alt="Pão de queijo">
-                <h3>Pão de Queijo</h3>
-                <p>Um pão de queijo sensacional, com a possibilidade de rechear de acordo com o seu gosto!</p>
-                <span>R$ 2,00</span>
-                <button class="adicionar">Adicionar </button>
-            </div>
-            <div class="produto">
-                <img src="img/bolo_1600x1200.png" alt="Bolo de cenoura">
-                <h3>Bolo de Cenoura</h3>
-                <p>Um bolo de cenoura fofinho e saboroso, com uma cobertura de chocolate que deixa tudo ainda melhor!</p>
-                <span>R$ 4,00</span>
-                <button class="adicionar">Adicionar </button>
-            </div>
-            <div class="produto">
-                <img src="img/torta_1600x1200.png" alt="Torta salgada">
-                <h3>Torta Salgada</h3>
-                <p>Uma deliciosa torta salgada de frango, super recheada e com um sabor caseiro irresistível!</p>
-                <span>R$ 8,00</span>
-                <button class="adicionar">Adicionar </button>
-            </div>
-        </section>
+<main>
 
-        <section id="pedido" >
-            <h2>Seu Pedido</h2>
-            <ul id="listaPedido">
-                
-            </ul>
-            <p id="total">Total: R$ 0,00</p>
-            <button id="finalizar-pedido">Finalizar Pedido</button>
-        </section>
+    <section class="categoria">
+        <h2>Cafés</h2>
 
+        <div class="produto">
+            <img src="img/cafe-Norma.png" alt="Café Normal">
+            <h3>Café Normal</h3>
+            <p>Um café tradicional, forte e encorpado.</p>
+            <span class="preco">R$ 2,00</span>
+            <button class="adicionar">Adicionar</button>
+        </div>
 
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco</p>
-            <div class="redes-sociais">
-                <a href="https://wa.me/5543996221914" target="_blank">Whatsapp</a>
-                <a href="https://instagram.com/duardinxs" target="_blank">Instagram</a>
-            </div>
-        </section>
-    </main>
+        <div class="produto">
+            <img src="img/cafe-Gourmet.png" alt="Café Gourmet">
+            <h3>Café Gourmet</h3>
+            <p>Grãos selecionados com sabor mais suave e refinado.</p>
+            <span class="preco">R$ 4,00</span>
+            <button class="adicionar">Adicionar</button>
+        </div>
 
-    <footer>
-        <p&copy>2026 Todos os direitos reservados</p>
-        <p>Desenvolvido por: <a href="https://github.com/efragadev" target="_blank">Eduardo Fraga</a></p>
-    </footer>
-    <script src='script.js'></script>
+        <div class="produto">
+            <img src="img/cafe-Cremoso.png" alt="Café Cremoso">
+            <h3>Café Cremoso</h3>
+            <p>Uma versão mais cremosa e equilibrada do café.</p>
+            <span class="preco">R$ 5,00</span>
+            <button class="adicionar">Adicionar</button>
+        </div>
+
+         <div class="produto">
+            <img src="img/capuccino_1600x1200.jpg" alt="Café Cremoso">
+            <h3>Cappucino</h3>
+            <p>Um capuccino gelado pra mudar completamente a rotina!</p>
+            <span class="preco">R$ 8,00</span>
+            <button class="adicionar">Adicionar</button>
+        </div>
+
+         <div class="produto">
+            <img src="img/chocolate_1600x1200.jpg" alt="Café Cremoso">
+            <h3>Chocolate Quente</h3>
+            <p>Perfeito para um dia de frio!</p>
+            <span class="preco">R$ 10,00</span>
+            <button class="adicionar">Adicionar</button>
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2>Assados</h2>
+
+        <div class="produto">
+            <img src="img/paodequeijo_1600x1200.jpg" alt="Pão de Queijo">
+            <h3>Pão de Queijo</h3>
+            <p>Pão de queijo quentinho, crocante por fora e macio por dentro.</p>
+            <span class="preco">R$ 3,00</span>
+            <button class="adicionar">Adicionar</button>
+        </div>
+
+        <div class="produto">
+            <img src="img/misto_1600x1200.jpg" alt="Misto Quente">
+            <h3>Misto Quente</h3>
+            <p>Pão na chapa com presunto e queijo derretido.</p>
+            <span class="preco">R$ 6,00</span>
+            <button class="adicionar">Adicionar</button>
+        </div>
+
+        <div class="produto">
+            <img src="img/bolo_1600x1200.png" alt="Bolo de Cenoura">
+            <h3>Bolo de Cenoura</h3>
+            <p>Um bolo fofinho com cobertura de chocolate irresistível.</p>
+            <span class="preco">R$ 5,00</span>
+            <button class="adicionar">Adicionar</button>
+        </div>
+
+        <div class="produto">
+            <img src="img/assado_1600x1200.jpg" alt="Croissant">
+            <h3>Croissant</h3>
+            <p>Croissant amanteigado, leve e crocante.</p>
+            <span class="preco">R$ 7,00</span>
+            <button class="adicionar">Adicionar</button>
+        </div>
+
+        <div class="produto">
+            <img src="img/misto_1600x1200.jpg" alt="Pão na Chapa">
+            <h3>Pão na Chapa</h3>
+            <p>Pão francês tostado com manteiga derretida.</p>
+            <span class="preco">R$ 4,00</span>
+            <button class="adicionar">Adicionar</button>
+        </div>
+
+    </section>
+
+    <section id="pedido">
+        <h2>Seu Pedido</h2>
+        <ul id="lista-pedido"></ul>
+        <p id="total">Total: R$ 0,00</p>
+        <button id="finalizar-pedido">Finalizar Pedido</button>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
-
 </html>
