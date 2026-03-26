@@ -38,7 +38,7 @@ header {
 }
 
 .banner-content h1 {
-    font-family: 'Playfair Display', serif; /* 🔥 fonte premium */
+    font-family: 'Playfair Display', serif; 
     font-size: 3rem;
     margin-bottom: 1rem;
     color: #FFFFFF;
@@ -51,7 +51,7 @@ header {
     color: #EDE0D4;
 }
 
-/* 🔥 BOTÕES MENU */
+
 nav a {
     color: #FFFFFF;
     text-decoration: none;
@@ -67,7 +67,7 @@ nav a:hover {
     background-color: #9C755F;
 }
 
-/* 🔥 MAIN */
+
 main {
     width: 80%;
     margin: 2rem auto;
@@ -80,7 +80,7 @@ main {
     font-weight: 600;
 }
 
-/* 🔥 CARD */
+
 .produto {
     background-color: #FFFFFF;
     color: #2C2C2C;
@@ -92,7 +92,7 @@ main {
     align-items: center;
     text-align: center;
 
-    /* 🔥 sombra moderna */
+    
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     transition: 0.3s;
 }
@@ -118,7 +118,7 @@ main {
     margin-bottom: 1rem;
 }
 
-/* 🔥 PREÇO */
+
 .preco {
     font-weight: bold;
     color: #B08968;
@@ -126,7 +126,7 @@ main {
     font-size: 1.1rem;
 }
 
-/* 🔥 BOTÃO ADICIONAR */
+
 .adicionar {
     background-color: #B08968;
     color: #FFFFFF;
@@ -142,7 +142,7 @@ main {
     background-color: #9C755F;
 }
 
-/* 🔥 PEDIDO */
+
 #pedido {
     background-color: #FFFFFF;
     padding: 1rem;
@@ -156,7 +156,7 @@ main {
     padding: 0;
 }
 
-/* 🔥 BOTÃO FINALIZAR */
+
 #finalizar-pedido {
     background-color: #B08968;
     color: #FFFFFF;
@@ -172,14 +172,14 @@ main {
     background-color: #9C755F;
 }
 
-/* 🔥 CONTATO */
+
 #contato {
     text-align: center;
     margin-top: 2rem;
     color: #EDE0D4;
 }
 
-/* 🔥 REDES */
+
 .redes-sociais a {
     display: inline-block;
     background-color: #FFFFFF;
@@ -201,7 +201,7 @@ main {
     color: #B08968;
 }
 
-/* 🔥 FOOTER */
+
 footer {
     text-align: center;
     padding: 1rem 0;
@@ -214,7 +214,7 @@ footer p a{
     color: #9C755F;
 }
 
-/* 🔥 RESPONSIVO */
+
 @media (min-width: 768px) {
     main {
         width: 60%;
